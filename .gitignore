@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!SavedVariables/Auctioneer.lua
+!SavedVariables/aux-addon.lua
+!macros-cache.txt
