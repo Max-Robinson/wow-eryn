@@ -18,7 +18,7 @@ lsConf = {
 			["Eryn"] = {
 				["clearHistoryAfterCombat"] = false,
 				["initiateAutoAttack"] = true,
-				["mmIsVisible"] = true,
+				["showTargetCasts"] = false,
 				["biteTracker"] = {
 					[1] = {
 						[1] = 0,
@@ -51,7 +51,7 @@ lsConf = {
 				["debug"] = false,
 				["biteSample"] = 25,
 				["healthHistorySize"] = 5,
-				["showTargetCasts"] = false,
+				["useImmunities"] = true,
 				["forms"] = {
 					["allPurpose"] = {
 						[1] = "-- Uncomment to use feral faerie fire if you have it",
@@ -119,16 +119,16 @@ lsConf = {
 						[7] = "hibernate",
 					},
 				},
-				["showActionAlways"] = true,
-				["deathMinionIsVisible"] = false,
-				["autoTarget"] = true,
-				["showGankMessage"] = false,
-				["minimapButtonPos"] = 0,
-				["minionHidesOutOfCombat"] = false,
-				["trackBiteCrits"] = false,
 				["Immunities"] = {
 				},
-				["useImmunities"] = true,
+				["trackBiteCrits"] = false,
+				["autoTarget"] = true,
+				["deathMinionIsVisible"] = false,
+				["minionHidesOutOfCombat"] = false,
+				["minimapButtonPos"] = 0,
+				["showGankMessage"] = false,
+				["mmIsVisible"] = true,
+				["showActionAlways"] = true,
 			},
 		},
 	},
