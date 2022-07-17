@@ -1,3 +1,6 @@
+MACRO 2 "Buff" Spell_Nature_Strength
+/lazyscript Buff
+END
 MACRO 1 "SpellAttack" Spell_Nature_AbolishMagic
 /lazyscript SpellAttack
 END
