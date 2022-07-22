@@ -52,6 +52,8 @@ lsConf = {
 				["biteSample"] = 25,
 				["healthHistorySize"] = 5,
 				["useImmunities"] = true,
+				["Immunities"] = {
+				},
 				["forms"] = {
 					["allPurpose"] = {
 						[1] = "-- Uncomment to use feral faerie fire if you have it",
@@ -106,8 +108,8 @@ lsConf = {
 						[7] = "thorns@self-echo=self thorns-ifNotHasBuff=thorns",
 						[8] = "thorns@self-echo=self thorns renewed-ifBuffDuration<30s=thorns",
 						[9] = "#targetByName=Zendra",
-						[10] = "#motw@Eryn-ifNotHasBuff=motw",
-						[11] = "#thorns@Eryn-ifNotHasBuff=thorns",
+						[10] = "#motw@Zendra-ifNotHasBuff=motw",
+						[11] = "#thorns@Zendra-ifNotHasBuff=thorns",
 					},
 					["MsSmolderweb"] = {
 						[1] = "starfire-ifTarget=100%hp",
@@ -119,14 +121,12 @@ lsConf = {
 						[7] = "hibernate",
 					},
 				},
-				["Immunities"] = {
-				},
 				["trackBiteCrits"] = false,
 				["autoTarget"] = true,
-				["deathMinionIsVisible"] = false,
+				["showGankMessage"] = false,
 				["minionHidesOutOfCombat"] = false,
 				["minimapButtonPos"] = 0,
-				["showGankMessage"] = false,
+				["deathMinionIsVisible"] = false,
 				["mmIsVisible"] = true,
 				["showActionAlways"] = true,
 			},
