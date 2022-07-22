@@ -18,7 +18,7 @@ lsConf = {
 			["Eryn"] = {
 				["clearHistoryAfterCombat"] = false,
 				["initiateAutoAttack"] = true,
-				["showTargetCasts"] = false,
+				["showActionAlways"] = true,
 				["biteTracker"] = {
 					[1] = {
 						[1] = 0,
@@ -52,8 +52,6 @@ lsConf = {
 				["biteSample"] = 25,
 				["healthHistorySize"] = 5,
 				["useImmunities"] = true,
-				["Immunities"] = {
-				},
 				["forms"] = {
 					["allPurpose"] = {
 						[1] = "-- Uncomment to use feral faerie fire if you have it",
@@ -90,8 +88,8 @@ lsConf = {
 					["SpellAttack"] = {
 						[1] = "autoAttack",
 						[2] = "rejuv@self-echo=Rejuvenation Self-ifPlayer>25mana-ifNotPlayerHasBuff=rejuv-ifPlayer>32hpDeficit",
-						[3] = "healingTouch@self-echo=Healing Touch Self-ifPlayer>25mana-ifPlayer<50%hp",
-						[4] = "moonfire-echo=Moonfire-ifPlayer>25mana-ifNotTargetHasDebuff=moonfire-ifTimeToDeath>9s",
+						[3] = "healingTouch@self-sayInSay=Half health! Healing Touch Self-ifPlayer>25mana-ifPlayer<50%hp",
+						[4] = "moonfire-echo=Deathstimator Moonfire-ifPlayer>25mana-ifNotTargetHasDebuff=moonfire-ifTimeToDeath>9s",
 						[5] = "# See calc in WoW spreadsheet Eryn tab ",
 						[6] = "# Can cast 5.3 Wraths in the 9 seconds of Moonfire duration",
 						[7] = "# for total of 143 hp damage (Rank 2)",
@@ -121,14 +119,16 @@ lsConf = {
 						[7] = "hibernate",
 					},
 				},
+				["Immunities"] = {
+				},
 				["trackBiteCrits"] = false,
 				["autoTarget"] = true,
-				["showGankMessage"] = false,
+				["deathMinionIsVisible"] = false,
 				["minionHidesOutOfCombat"] = false,
 				["minimapButtonPos"] = 0,
-				["deathMinionIsVisible"] = false,
+				["showGankMessage"] = false,
+				["showTargetCasts"] = false,
 				["mmIsVisible"] = true,
-				["showActionAlways"] = true,
 			},
 		},
 	},
